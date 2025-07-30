@@ -1,1 +1,112 @@
-<pre lang="md"><code># 🌑 Dark Dashboard — React + TypeScript + Vite A beautiful and minimal **dark-mode dashboard** UI built with **React 18**, **TypeScript**, **Vite**, **Tailwind CSS**, and **React Router**. This project serves as a starter template for modern web apps and dashboards with clean structure and responsive design. ![banner](./public/banner.png) <!-- Replace with your actual screenshot or remove --> --- ## 🚀 Live Demo 👉 [https://rahimprz.github.io/Dark-Dashboard](https://rahimprz.github.io/Dark-Dashboard) _(Optional: Add if deployed)_ --- ## ✨ Features - ⚡ Lightning-fast development with **Vite** - 🌒 Fully responsive **dark theme UI** - ⚛️ Built using **React 18 + TypeScript** - 🧭 Routing with **React Router v7** - 💅 Styled with **Tailwind CSS 3** - 🧩 Reusable component architecture - 🧼 ESLint integration for code quality - 🧠 Icons from **Lucide** --- ## 🛠 Tech Stack | Tech | Purpose | |--------------------|---------------------------------| | React 18 | UI Framework | | TypeScript | Type safety | | Vite | Build & Dev server | | Tailwind CSS | Utility-first styling | | React Router v7 | Routing | | Lucide React | Icon library | | ESLint | Linting for cleaner code | --- ## 📦 Installation & Setup Follow these steps to install and run the project locally: ### 1. Clone the repository ```bash git clone https://github.com/rahimprz/Dark-Dashboard.git cd Dark-Dashboard ``` ### 2. Install dependencies ```bash npm install # or yarn install ``` --- ## 🔧 Development ### Run the development server ```bash npm run dev ``` Visit `http://localhost:5173` in your browser. --- ### Build for production ```bash npm run build ``` ### Preview production build locally ```bash npm run preview ``` --- ## 📁 Folder Structure ``` Dark-Dashboard/ ├── public/ # Static files and favicon ├── src/ │ ├── assets/ # Images, icons │ ├── components/ # Reusable UI components │ ├── pages/ # App pages │ ├── router/ # Route definitions │ ├── App.tsx # Main app wrapper │ └── main.tsx # App entry point ├── .eslintrc.cjs # ESLint config ├── tailwind.config.js # Tailwind config ├── postcss.config.js # PostCSS config ├── vite.config.ts # Vite config ├── package.json └── tsconfig.json ``` --- ## 📸 Screenshots > Replace with actual UI shots from your app ![screenshot](./public/screenshot1.png) ![screenshot](./public/screenshot2.png) --- ## 🧹 Linting Run lint checks using: ```bash npm run lint ``` --- ## 📝 License MIT License © [Muhammad Rahim](https://github.com/rahimprz) --- ## 🙋‍♂️ Author Built with passion by [@rahimprz](https://github.com/rahimprz) </code></pre>
+# 🌑 Dark Dashboard – Vite + React + TypeScript
+
+A clean, dark-themed admin dashboard built using **React**, **Vite**, **TypeScript**, **Tailwind CSS**, and **React Router DOM**. Lightweight, blazing fast, and perfect for modern web apps.
+
+> 🔗 GitHub Repo: [Dark Dashboard](https://github.com/rahimprz/Dark-Dashboard)
+
+---
+
+## 🖥️ Live Preview (Optional)
+
+You can deploy this on **Vercel**, **Netlify**, or any static hosting provider.
+
+---
+
+## 🚀 Features
+
+- ⚡ Super-fast bundling with **Vite**
+- 🌙 Dark UI theme (fully responsive)
+- 🧭 Routing with **React Router v7**
+- ✍️ Written in **TypeScript**
+- 🎨 Utility-first styling using **Tailwind CSS**
+- 💡 Beautiful SVG icons with **Lucide React**
+- 🔍 Code linting with **ESLint** and TypeScript rules
+
+---
+
+## 📦 Tech Stack
+
+| Tool               | Purpose                     |
+|--------------------|-----------------------------|
+| React              | UI library                  |
+| Vite               | Development & build tool    |
+| TypeScript         | Static typing               |
+| Tailwind CSS       | Utility-first CSS framework |
+| React Router DOM   | Client-side routing         |
+| Lucide React       | Icons                       |
+| ESLint             | Linting & code quality      |
+
+---
+
+
+---
+
+## 🛠️ Installation & Setup
+
+### Install Dependencies
+
+Using npm:
+
+```bash
+npm install
+```
+
+Or using yarn:
+
+```bash
+yarn install
+```
+
+---
+
+### Run Development Server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+App will be running at:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+---
+
+### Preview Production Build Locally
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+---
+
+### ✏️ Customize Tailwind Theme
+
+Tailwind is fully customizable via `tailwind.config.js`. You can modify colors, fonts, spacing, and more.
+
+---
+
+### ✅ ESLint Configuration
+
+Lint your code for consistent style and error prevention:
+
+```bash
+npm run lint
+# or
+yarn lint
+```
